@@ -1,0 +1,2 @@
+[data_ingestion]
+llm_model="openai/gpt-oss-120b"

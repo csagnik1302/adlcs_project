@@ -1,0 +1,28 @@
+[project]
+name = "adlcs-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "sagnikc2003@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "atlas-rag>=0.0.5.post1",
+    "datasets>=5.0.1",
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.15.1",
+    "gliner>=0.2.29",
+    "openai>=3.24.0",
+    "pandas>=3.0.5",
+    "pdf2image>=1.17.0",
+    "pymupdf>=1.28.2",
+    "pytesseract>=0.3.13",
+]
+
+[project.scripts]
+adlcs-project = "adlcs_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
