@@ -4,14 +4,17 @@ from pdf2image import convert_from_path
 from pytesseract import image_to_string
 import pandas as pd
 
-def type_detection(file_path):
-    return Path(file_path).suffix
+def type_detection(file_dir):
+    extensions={i.suffix for i in file_dir.iterdir() if i.is_file()}
+    return list(extensions)[0]
 
 
-def text_extractor(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        text=f.read()
-    return text
+def text_extractor(file_dir, glob_str):
+    loaded_files={}
+    for i in file_dir.glob(f"*{glob_str}"):
+        loaded_files[i.name]=i.read_text(encoding='utf-8')
+    return loaded_files
+
 
 def pdf_extractor(file_path):
     doc=pymupdf.open(filename=file_path)
@@ -55,13 +58,8 @@ if __name__=='__main__':
     SRC=PARENT.parent
     ROOT=SRC.parent
 
-    data_folder=ROOT/'data'
+    data_folder=ROOT/'data'/'raw'
 
-    files=[i.name for i in data_folder.iterdir() if i.is_file()]
-    file_paths=[f'{data_folder}/{i}' for i in files]
-
-    outputs=[main(i) for i in file_paths]
-
-    print(outputs[37])
+    print(type_detection(data_folder))
 
 

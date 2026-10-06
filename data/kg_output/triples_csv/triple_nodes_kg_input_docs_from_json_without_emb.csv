@@ -1,0 +1,91 @@
+name:ID,type,concepts,synsets,:LABEL
+Israel television,entity,[],[],Node
+skit,entity,[],[],Node
+Tuvia Tzafir,entity,[],[],Node
+public apathy,entity,[],[],Node
+Israeli family,entity,[],[],Node
+Comedian Tuvia Tzafir created a skit attacking public apathy by depicting an Israeli family watching TV while a fire raged outside,event,[],[],Node
+Israel television rejected a skit by comedian Tuvia Tzafir,event,[],[],Node
+Israel television rejected a skit by comedian Tuvia Tzafir that attacked public apathy by depicting an Israeli family watching TV while a fire raged outside.,event,[],[],Node
+art exhibit,entity,[],[],Node
+Hakawati Theatre,entity,[],[],Node
+Arab east Jerusalem,entity,[],[],Node
+portraits,entity,[],[],Node
+Palestinians,entity,[],[],Node
+rebellion,entity,[],[],Node
+An art exhibit opened at the Hakawati Theatre in Arab east Jerusalem,event,[],[],Node
+The exhibit featured a series of portraits of Palestinians killed in the rebellion,event,[],[],Node
+An art exhibit at the Hakawati Theatre in Arab east Jerusalem was a series of portraits of Palestinians killed in the rebellion.,event,[],[],Node
+PERUGIA,entity,[],[],Node
+Italy,entity,[],[],Node
+Associated Press,entity,[],[],Node
+"PERUGIA, Italy",event,[],[],Node
+AP,entity,[],[],Node
+five people,entity,[],[],Node
+Perugia,entity,[],[],Node
+Umbria province,entity,[],[],Node
+police,entity,[],[],Node
+car,entity,[],[],Node
+trunk,entity,[],[],Node
+bogus bills,entity,[],[],Node
+Police stopped their car,event,[],[],Node
+Five people were arrested there Tuesday night,event,[],[],Node
+Police found $1 million in bogus bills in the trunk,event,[],[],Node
+Officials in Perugia in Umbria province said five people were arrested there Tuesday night.,event,[],[],Node
+Officials,entity,[],[],Node
+Police stopped their car and found $1 million in bogus bills in the trunk.,event,[],[],Node
+their car,entity,[],[],Node
+$1 million in bogus bills,entity,[],[],Node
+the trunk,entity,[],[],Node
+operation,entity,[],[],Node
+Lazio province,entity,[],[],Node
+Campania province,entity,[],[],Node
+"The ANSA news agency said the operation involved police in Umbria and Lazio provinces in central Italy and Campania province in the south, without specifying exact arrest locations.",event,[],[],Node
+ANSA news agency,entity,[],[],Node
+Umbria,entity,[],[],Node
+Lazio provinces,entity,[],[],Node
+Rome,entity,[],[],Node
+Naples,entity,[],[],Node
+Campania,entity,[],[],Node
+Rome is in Lazio province,event,[],[],Node
+Naples is in Campania,event,[],[],Node
+Reagan,entity,[],[],Node
+notes,entity,[],[],Node
+speeches,entity,[],[],Node
+career,entity,[],[],Node
+America,entity,[],[],Node
+city upon a hill,entity,[],[],Node
+Reagan sounded positive notes reminiscent of earlier speeches throughout his political career,event,[],[],Node
+Reagan emphasized the pre-eminent position of We the People in the American system,event,[],[],Node
+iron triangle,entity,[],[],Node
+members of Congress,entity,[],[],Node
+news media,entity,[],[],Node
+special interest groups,entity,[],[],Node
+speech,entity,[],[],Node
+political appointees,entity,[],[],Node
+Washington,entity,[],[],Node
+administration,entity,[],[],Node
+federal budget,entity,[],[],Node
+Reagan gave a speech to political appointees in Washington on Dec. 13,event,[],[],Node
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget,event,[],[],Node
+Reagan delivered a speech to political appointees in Washington on Dec. 13.,event,[],[],Node
+Dec. 13,entity,[],[],Node
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget.,event,[],[],Node
+Congress,entity,[],[],Node
+situation in Central America,entity,[],[],Node
+program of aid,entity,[],[],Node
+anti-communist Contra rebels,entity,[],[],Node
+He made a speech at the University of Virginia in Charlottesville on Dec. 16,event,[],[],Node
+He argued that Congress had perpetuated a dangerous situation in Central America,event,[],[],Node
+"Congress showed on-again, off-again indecisiveness on his program of aid to the anti-communist Contra rebels",event,[],[],Node
+Congress perpetuated a dangerous situation in Central America,event,[],[],Node
+He argued in a speech at the University of Virginia in Charlottesville Dec. 16 that Congress had perpetuated a dangerous situation in Central America by its indecisiveness on his program of aid to the anti-communist Contra rebels.,event,[],[],Node
+He,entity,[],[],Node
+trade deficits,entity,[],[],Node
+debtor nation,entity,[],[],Node
+Reagan's tenure turned America into the world's biggest debtor nation,event,[],[],Node
+enormous trade deficits occurred during Reagan's tenure,event,[],[],Node
+America turned into the world's biggest debtor nation,event,[],[],Node
+"There was no mention at all of the Contras, the arms sales to Iran or the enormous trade deficits that during Reagan's tenure have turned America into the world's biggest debtor nation.",event,[],[],Node
+Contras,entity,[],[],Node
+Iran,entity,[],[],Node

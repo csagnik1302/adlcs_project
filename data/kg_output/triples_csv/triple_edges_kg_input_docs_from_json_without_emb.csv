@@ -1,0 +1,97 @@
+:START_ID,:END_ID,relation,concepts,synsets,:TYPE
+Israel television,skit,rejected,[],[],Relation
+Tuvia Tzafir,skit,authored,[],[],Relation
+skit,public apathy,attacked,[],[],Relation
+skit,Israeli family,depicted,[],[],Relation
+Comedian Tuvia Tzafir created a skit attacking public apathy by depicting an Israeli family watching TV while a fire raged outside,Israel television rejected a skit by comedian Tuvia Tzafir,before,[],[],Relation
+Israel television rejected a skit by comedian Tuvia Tzafir,Comedian Tuvia Tzafir created a skit attacking public apathy by depicting an Israeli family watching TV while a fire raged outside,after,[],[],Relation
+Israel television rejected a skit by comedian Tuvia Tzafir that attacked public apathy by depicting an Israeli family watching TV while a fire raged outside.,Israel television,is participated by,[],[],Relation
+Israel television rejected a skit by comedian Tuvia Tzafir that attacked public apathy by depicting an Israeli family watching TV while a fire raged outside.,Tuvia Tzafir,is participated by,[],[],Relation
+Israel television rejected a skit by comedian Tuvia Tzafir that attacked public apathy by depicting an Israeli family watching TV while a fire raged outside.,Israeli family,is participated by,[],[],Relation
+art exhibit,Hakawati Theatre,takes place at,[],[],Relation
+Hakawati Theatre,Arab east Jerusalem,located in,[],[],Relation
+art exhibit,portraits,consists of,[],[],Relation
+portraits,Palestinians,depict,[],[],Relation
+Palestinians,rebellion,killed in,[],[],Relation
+An art exhibit opened at the Hakawati Theatre in Arab east Jerusalem,The exhibit featured a series of portraits of Palestinians killed in the rebellion,before,[],[],Relation
+An art exhibit at the Hakawati Theatre in Arab east Jerusalem was a series of portraits of Palestinians killed in the rebellion.,Hakawati Theatre,is participated by,[],[],Relation
+An art exhibit at the Hakawati Theatre in Arab east Jerusalem was a series of portraits of Palestinians killed in the rebellion.,Arab east Jerusalem,is participated by,[],[],Relation
+An art exhibit at the Hakawati Theatre in Arab east Jerusalem was a series of portraits of Palestinians killed in the rebellion.,Palestinians,is participated by,[],[],Relation
+PERUGIA,Italy,is located in,[],[],Relation
+Associated Press,PERUGIA,reports from,[],[],Relation
+"PERUGIA, Italy",PERUGIA,is participated by,[],[],Relation
+"PERUGIA, Italy",Italy,is participated by,[],[],Relation
+"PERUGIA, Italy",AP,is participated by,[],[],Relation
+five people,Perugia,were arrested in,[],[],Relation
+Perugia,Umbria province,is in,[],[],Relation
+police,car,stopped,[],[],Relation
+car,trunk,contained in,[],[],Relation
+trunk,bogus bills,contained,[],[],Relation
+Police stopped their car,Five people were arrested there Tuesday night,before,[],[],Relation
+Police found $1 million in bogus bills in the trunk,Five people were arrested there Tuesday night,as a result,[],[],Relation
+Officials in Perugia in Umbria province said five people were arrested there Tuesday night.,Officials,is participated by,[],[],Relation
+Officials in Perugia in Umbria province said five people were arrested there Tuesday night.,Perugia,is participated by,[],[],Relation
+Officials in Perugia in Umbria province said five people were arrested there Tuesday night.,Umbria province,is participated by,[],[],Relation
+Officials in Perugia in Umbria province said five people were arrested there Tuesday night.,five people,is participated by,[],[],Relation
+Officials in Perugia in Umbria province said five people were arrested there Tuesday night.,police,is participated by,[],[],Relation
+Police stopped their car and found $1 million in bogus bills in the trunk.,police,is participated by,[],[],Relation
+Police stopped their car and found $1 million in bogus bills in the trunk.,their car,is participated by,[],[],Relation
+Police stopped their car and found $1 million in bogus bills in the trunk.,$1 million in bogus bills,is participated by,[],[],Relation
+Police stopped their car and found $1 million in bogus bills in the trunk.,the trunk,is participated by,[],[],Relation
+operation,police,involved,[],[],Relation
+police,Umbria province,operated in,[],[],Relation
+police,Lazio province,operated in,[],[],Relation
+police,Campania province,operated in,[],[],Relation
+"The ANSA news agency said the operation involved police in Umbria and Lazio provinces in central Italy and Campania province in the south, without specifying exact arrest locations.",ANSA news agency,is participated by,[],[],Relation
+"The ANSA news agency said the operation involved police in Umbria and Lazio provinces in central Italy and Campania province in the south, without specifying exact arrest locations.",police,is participated by,[],[],Relation
+"The ANSA news agency said the operation involved police in Umbria and Lazio provinces in central Italy and Campania province in the south, without specifying exact arrest locations.",Umbria,is participated by,[],[],Relation
+"The ANSA news agency said the operation involved police in Umbria and Lazio provinces in central Italy and Campania province in the south, without specifying exact arrest locations.",Lazio provinces,is participated by,[],[],Relation
+"The ANSA news agency said the operation involved police in Umbria and Lazio provinces in central Italy and Campania province in the south, without specifying exact arrest locations.",Campania province,is participated by,[],[],Relation
+Rome,Lazio province,is in,[],[],Relation
+Naples,Campania,is in,[],[],Relation
+Rome is in Lazio province,Rome,is participated by,[],[],Relation
+Rome is in Lazio province,Lazio province,is participated by,[],[],Relation
+Naples is in Campania,Naples,is participated by,[],[],Relation
+Naples is in Campania,Campania,is participated by,[],[],Relation
+Reagan,notes,sounded,[],[],Relation
+Reagan,speeches,made in,[],[],Relation
+speeches,career,spanned,[],[],Relation
+America,city upon a hill,imagined as,[],[],Relation
+Reagan sounded positive notes reminiscent of earlier speeches throughout his political career,Reagan emphasized the pre-eminent position of We the People in the American system,at the same time,[],[],Relation
+Reagan sounded positive notes reminiscent of earlier speeches throughout his political career,Reagan,is participated by,[],[],Relation
+iron triangle,members of Congress,consists of,[],[],Relation
+iron triangle,news media,includes,[],[],Relation
+iron triangle,special interest groups,includes,[],[],Relation
+Reagan,speech,delivered,[],[],Relation
+speech,political appointees,addressed,[],[],Relation
+speech,Washington,occurred in,[],[],Relation
+iron triangle,administration,prevented,[],[],Relation
+administration,federal budget,attempted,[],[],Relation
+Reagan gave a speech to political appointees in Washington on Dec. 13,Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget,before,[],[],Relation
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget,Reagan gave a speech to political appointees in Washington on Dec. 13,because,[],[],Relation
+Reagan delivered a speech to political appointees in Washington on Dec. 13.,Reagan,is participated by,[],[],Relation
+Reagan delivered a speech to political appointees in Washington on Dec. 13.,political appointees,is participated by,[],[],Relation
+Reagan delivered a speech to political appointees in Washington on Dec. 13.,Washington,is participated by,[],[],Relation
+Reagan delivered a speech to political appointees in Washington on Dec. 13.,Dec. 13,is participated by,[],[],Relation
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget.,iron triangle,is participated by,[],[],Relation
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget.,members of Congress,is participated by,[],[],Relation
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget.,news media,is participated by,[],[],Relation
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget.,special interest groups,is participated by,[],[],Relation
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget.,Reagan,is participated by,[],[],Relation
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget.,administration,is participated by,[],[],Relation
+Reagan claimed that the iron triangle had prevented his administration from balancing the federal budget.,federal budget,is participated by,[],[],Relation
+Congress,situation in Central America,perpetuated,[],[],Relation
+program of aid,anti-communist Contra rebels,targeted,[],[],Relation
+He made a speech at the University of Virginia in Charlottesville on Dec. 16,He argued that Congress had perpetuated a dangerous situation in Central America,before,[],[],Relation
+"Congress showed on-again, off-again indecisiveness on his program of aid to the anti-communist Contra rebels",Congress perpetuated a dangerous situation in Central America,as a result,[],[],Relation
+He argued in a speech at the University of Virginia in Charlottesville Dec. 16 that Congress had perpetuated a dangerous situation in Central America by its indecisiveness on his program of aid to the anti-communist Contra rebels.,He,is participated by,[],[],Relation
+He argued in a speech at the University of Virginia in Charlottesville Dec. 16 that Congress had perpetuated a dangerous situation in Central America by its indecisiveness on his program of aid to the anti-communist Contra rebels.,Congress,is participated by,[],[],Relation
+He argued in a speech at the University of Virginia in Charlottesville Dec. 16 that Congress had perpetuated a dangerous situation in Central America by its indecisiveness on his program of aid to the anti-communist Contra rebels.,anti-communist Contra rebels,is participated by,[],[],Relation
+trade deficits,debtor nation,turned into,[],[],Relation
+Reagan,trade deficits,has tenure during,[],[],Relation
+Reagan's tenure turned America into the world's biggest debtor nation,enormous trade deficits occurred during Reagan's tenure,because,[],[],Relation
+enormous trade deficits occurred during Reagan's tenure,America turned into the world's biggest debtor nation,as a result,[],[],Relation
+"There was no mention at all of the Contras, the arms sales to Iran or the enormous trade deficits that during Reagan's tenure have turned America into the world's biggest debtor nation.",Contras,is participated by,[],[],Relation
+"There was no mention at all of the Contras, the arms sales to Iran or the enormous trade deficits that during Reagan's tenure have turned America into the world's biggest debtor nation.",Iran,is participated by,[],[],Relation
+"There was no mention at all of the Contras, the arms sales to Iran or the enormous trade deficits that during Reagan's tenure have turned America into the world's biggest debtor nation.",Reagan,is participated by,[],[],Relation
+"There was no mention at all of the Contras, the arms sales to Iran or the enormous trade deficits that during Reagan's tenure have turned America into the world's biggest debtor nation.",America,is participated by,[],[],Relation

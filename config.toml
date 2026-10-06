@@ -1,2 +1,2 @@
 [data_ingestion]
-llm_model="openai/gpt-oss-120b"
+llm_model="gemini-3.5-flash-lite"

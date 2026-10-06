@@ -1,5 +1,5 @@
 import os
-from misc import throttle_client
+from misc import throttle_client, view_graphml
 from atlas_rag.kg_construction.triple_extraction import KnowledgeGraphExtractor
 from atlas_rag.kg_construction.triple_config import ProcessingConfig
 from atlas_rag.llm_generator import LLMGenerator
@@ -13,14 +13,14 @@ import shutil
 ROOT=Path(__file__).resolve().parent.parent.parent
 
 load_dotenv()
-groq_api_key=os.getenv('GROQ_API_KEY')
+groq_api_key=os.getenv('GEMINI_API_KEY')
 
 with open('config.toml', 'rb') as f:
     config=tomllib.load(f)
 
 model_name=config['data_ingestion']['llm_model']
 
-client=OpenAI(api_key=groq_api_key, base_url="https://api.groq.com/openai/v1", max_retries=0)
+client=OpenAI(api_key=groq_api_key, base_url="https://generativelanguage.googleapis.com/v1beta/openai/", max_retries=0)
 client=throttle_client(client, rpm=10, max_concurrent=2)
 
 raw_directory=ROOT/'data'/'raw'
@@ -82,4 +82,5 @@ def kg_extractor_pipeline():
 
 if __name__=='__main__':
 
-    kg_extractor_pipeline()
+    # kg_extractor_pipeline()
+    view_graphml(r'D:\adlcs_project\data\kg_output\kg_graphml\kg_input_docs_graph.graphml')

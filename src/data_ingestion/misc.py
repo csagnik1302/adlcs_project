@@ -1,6 +1,7 @@
 import threading
 import time
-
+import networkx as nx
+import matplotlib.pyplot as plt
 from openai import RateLimitError
 
 
@@ -36,3 +37,17 @@ def throttle_client(client, rpm=10, max_concurrent=2, cooldown=60):
 
     client.chat.completions.create = throttled_create
     return client
+
+
+
+def view_graphml(file_path):
+    gr=nx.read_graphml(file_path)
+    nx.draw(gr)
+    plt.show()
+
+
+def inspect_graphml(file_path):
+    
+    graph=nx.read_graphml(file_path)
+    n_nodes, n_edges=graph.number_of_nodes(), graph.number_of_edges()
+    
