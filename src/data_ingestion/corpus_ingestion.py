@@ -1,51 +1,67 @@
 from pathlib import Path
 import pymupdf
-from pdf2image import convert_from_path
-from pytesseract import image_to_string
 import pandas as pd
 
-def type_detection(file_dir):
+ROOT=Path(__file__).resolve().parent.parent.parent
+raw_path=ROOT/'data'/'raw'
+
+
+
+def type_detection(file_dir=raw_path):
     extensions={i.suffix for i in file_dir.iterdir() if i.is_file()}
-    return list(extensions)[0]
+    out=list(extensions)[0]
+    return out
 
 
-def text_extractor(file_dir, glob_str):
-    loaded_files={}
-    for i in file_dir.glob(f"*{glob_str}"):
-        loaded_files[i.name]=i.read_text(encoding='utf-8')
-    return loaded_files
+
+def path_list_ext(glob_str, file_dir=raw_path):
+    file_path_list=[]
+
+    for i in file_dir.rglob(f"*{glob_str}"):
+        file_path_list.append(i)
+    
+    return file_path_list
 
 
-def pdf_extractor(file_path):
-    doc=pymupdf.open(filename=file_path)
-    doc_image=convert_from_path(pdf_path=file_path)
+def text_extractor(path_list):
 
-    output_text=''
+    content=[]
 
-    for i in range(len(doc)):
-        page=doc[i]
-        text=page.get_text()
+    for i in path_list:
+        with open(str(i),'r',encoding='utf-8') as f:
+            text=f.read()
+        content.append(text)
 
-        if len(text)>0:
-            output_text+=text
-        else:
-            output_text+=image_to_string(image=doc_image[i])
+    return content
 
-    return output_text
 
-def csv_extractor(file_path):
-    output=pd.read_csv(file_path)
-    return output
+def pdf_extractor(path_list):
+
+    content=[]
+
+    for i in path_list:
+        text=''
+        with pymupdf.open(str(i)) as f:
+            for page in f:
+                page_text=page.get_text()
+                text+=page_text.replace('\n',' ').strip()
+        content.append(text)
+
+    return content
+
+
+# def csv_extractor(file_path):
+#     output=pd.read_csv(file_path)
+#     return output
 
 def main(file_path):
-    type=type_detection(file_path=file_path)
+    type=type_detection()
+    path_list=path_list_ext(type)
 
     if type=='.txt':
-        output=text_extractor(file_path=file_path)
+        output=text_extractor(path_list)
     elif type=='.pdf':
-        output=pdf_extractor(file_path=file_path)
-    elif type=='.csv':
-        output=csv_extractor(file_path=file_path)
+        output=pdf_extractor(path_list)
 
     return output
 
@@ -60,6 +76,6 @@ if __name__=='__main__':
 
     data_folder=ROOT/'data'/'raw'
 
-    print(type_detection(data_folder))
+    out=main(data_folder)
 
-
+    print(out)

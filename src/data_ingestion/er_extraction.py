@@ -1,9 +1,10 @@
 import os
-from misc import throttle_client, view_graphml
+from misc import view_graphml
+from corpus_ingestion import main
 from atlas_rag.kg_construction.triple_extraction import KnowledgeGraphExtractor
 from atlas_rag.kg_construction.triple_config import ProcessingConfig
 from atlas_rag.llm_generator import LLMGenerator
-from openai import OpenAI
+from transformers import pipeline
 from dotenv import load_dotenv
 import tomllib
 from pathlib import Path
@@ -13,15 +14,14 @@ import shutil
 ROOT=Path(__file__).resolve().parent.parent.parent
 
 load_dotenv()
-groq_api_key=os.getenv('GEMINI_API_KEY')
+hf_token=os.getenv('HF_TOKEN')
 
 with open('config.toml', 'rb') as f:
     config=tomllib.load(f)
 
 model_name=config['data_ingestion']['llm_model']
 
-client=OpenAI(api_key=groq_api_key, base_url="https://generativelanguage.googleapis.com/v1beta/openai/", max_retries=0)
-client=throttle_client(client, rpm=10, max_concurrent=2)
+client=pipeline("text-generation", model=model_name, device_map="auto", token=hf_token)
 
 raw_directory=ROOT/'data'/'raw'
 input_directory=ROOT/'data'/'kg_input'
@@ -30,15 +30,14 @@ KEYWORD='kg_input_docs'
 
 
 def json_parse(raw_dir=raw_directory):
+
+    doc_list=main(raw_dir)
+
     documents = []
-    for idx, path in enumerate(sorted(raw_dir.glob("*.txt"))):
-        text = path.read_text(encoding="utf-8").strip()
+    for idx, doc in enumerate(sorted(doc_list)):
+        text = doc
         if text:
-            documents.append({
-                "id": f"doc_{idx}",
-                "text": text,
-                "metadata": {"lang": "en", "title": path.stem},
-            })
+            documents.append({"id": f"doc_{idx}", "text": text})
     return documents
 
 

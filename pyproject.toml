@@ -20,6 +20,7 @@ dependencies = [
     "pdf2image>=1.17.0",
     "pymupdf>=1.28.2",
     "pytesseract>=0.3.13",
+    "transformers>=5.16.1",
 ]
 
 [project.scripts]
