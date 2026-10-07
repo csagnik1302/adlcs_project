@@ -41,6 +41,8 @@ def json_parse(raw_dir=raw_directory):
     return documents
 
 
+
+
 def save_json(documents, json_dir=input_directory, keyword=KEYWORD):
     if not documents:
         raise FileNotFoundError("No non-empty .txt files found to convert")
@@ -54,6 +56,8 @@ def save_json(documents, json_dir=input_directory, keyword=KEYWORD):
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(documents, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(documents)} documents to {out_file}")
+
+
 
 
 
